@@ -24,43 +24,32 @@ This list prioritizes **open-source GitHub projects** while keeping SaaS/hosted 
 
 
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#saas--hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global website builder software market is valued at approximately $3.0B to $4.7B, expanding at a steady 7–12% CAGR overall while the generative AI-powered builder segment surges at over 20–25% annually. The sector exhibits a barbell structure—it is concentrated at the top where established incumbents (Wix, Squarespace, GoDaddy) capture the majority of commercial market share, yet highly fragmented across a long tail of niche AI-first builders, visual design-to-code platforms, and open-source tooling competing on speed, customizability, and workflow integrations.
 
 ## SaaS / Hosted Platforms
 
+These are popular commercial AI website builders and landing page generators (closed-source / hosted), sorted in descending order by company size (valuation / revenue):
 
-
-These are popular commercial AI website builders and landing page generators (closed-source / hosted):
-
-
-
-- **[Durable](https://durable.co/)** — Generates a complete business website + CRM + invoicing in under 60 seconds. Ideal for local service businesses and solopreneurs.
-
-- **[10Web](https://10web.io/)** — AI website builder built on WordPress + Elementor. Can recreate sites from a URL or prompt and hosts on Google Cloud with performance optimization.
-
-- **[Framer AI](https://www.framer.com/)** — Design-first AI website builder with a powerful visual canvas, advanced animations, and CMS. Excellent for designers who want pixel-perfect control.
-
-- **[Wix Studio AI](https://www.wix.com/studio)** — AI-assisted website creation inside the Wix ecosystem (ADI + Studio tools). Strong for beginners and full marketing sites.
-
-- **[Hostinger AI Website Builder](https://www.hostinger.com/)** — Fast AI site generation tightly integrated with Hostinger hosting.
-
-- **[Dorik AI](https://dorik.com/)** — AI website & landing page builder focused on speed and simplicity.
-
-- **[Relume](https://www.relume.io/)** — AI-powered component library and site structure generator that works great with Figma → Webflow/Framer workflows.
-
-- **[TeleportHQ](https://teleporthq.io/)** — AI-assisted visual development platform with code export.
-
-- **[B12](https://www.b12.io/)** — AI website builder aimed at professional services (lawyers, consultants, agencies) with built-in marketing tools.
-
-- **[CodeDesign.ai](https://codedesign.ai/)** — AI website & landing page generator with clean code export options.
+| Platform | Description | Starting Pricing | Free Tier / Trial Limits | Company Size (Valuation / Revenue) |
+|---|---|---|---|---|
+| **[Wix Studio AI](https://www.wix.com/studio)** | AI-assisted website creation inside the Wix ecosystem (ADI + Studio tools). Strong for full marketing sites. | $17/mo (Light tier, billed annually) | Free forever plan: unlimited time, 500 MB cloud storage, 500 MB bandwidth, Wix-branded domain (`user.wixsite.com`), display ads | Public (NASDAQ: WIX): ~$5.8B–$12B market cap; ~$1.76B–$1.99B annual revenue |
+| **[Framer AI](https://www.framer.com/)** | Design-first AI website builder with a visual canvas, animations, and CMS for pixel-perfect design. | $10/mo per site (Basic tier, billed annually) | Free forever plan: 1 project, `*.framer.website` subdomain, Framer badge banner, up to 1,000 visitors/mo, 1 GB bandwidth | $2.0B valuation (Series D, $161M total funding); ~$25M–$50M ARR |
+| **[Hostinger AI Website Builder](https://www.hostinger.com/)** | Fast AI site generation tightly integrated with Hostinger cloud hosting and domain infrastructure. | $1.99/mo (Premium plan, 48-mo upfront promo) or $10.99/mo renewal | 7-day free trial for AI Website Builder (preview only, no live domain); 30-day full money-back guarantee on paid plans | Private: €275.4M (~$325M USD) annual revenue (2025); 4.6M+ active customers |
+| **[B12](https://www.b12.io/)** | AI website builder aimed at professional services (lawyers, consultants, agencies) with built-in client tools. | $20/mo (Website tier, billed annually) or $24/mo monthly | Free forever plan: `.b12sites.com` subdomain, basic hosting, up to 5 AI prompt edits/day (capped at 30/mo) | ~$60M–$63M valuation (Series A, $28.1M raised); ~$8.3M ARR |
+| **[Durable](https://durable.co/)** | Generates business website + CRM + invoicing in under 60 seconds for solopreneurs and service SMBs. | $22/mo (Launch tier, billed annually) or $25/mo monthly | Free forever plan: generates and hosts preview sites on Durable subdomain with 3 AI edits/site and limited AI credits | $20M–$26.5M total funding raised (Series A led by Spark Capital); 6M+ websites created |
+| **[Relume](https://www.relume.io/)** | AI component library and sitemap generator integrating with Figma, Webflow, and React workflows. | $18/mo (Starter tier, billed annually) or $12/mo (Launch hosting) | Free forever plan: 1 active project, 1-page generation limit, Figma export, basic component library access | Bootstrapped (0 institutional VC funding); ~$3.3M–$14M ARR estimate |
+| **[Dorik AI](https://dorik.com/)** | AI website & landing page builder focused on speed, simplicity, and clean responsive blocks. | $39/mo (Pro tier, billed annually) or $49/mo monthly | Free forever plan: 2 AI website generations, unlimited static pages, Dorik subdomain (`dorik.io`), Dorik badge branding | Undisclosed Pre-seed funding (Long Journey Ventures, Air Angels); ~$3.0M–$3.4M ARR |
+| **[10Web](https://10web.io/)** | AI website builder built on WordPress + Elementor with automated page recreation and managed hosting. | $10/mo per site (AI Starter, billed annually) or $20/mo monthly | 3-day full-access free trial (includes AI page recreation, generator, and 100 AI credits) | $2.0M Seed funding (AI Fund, Sierra Ventures); ~$5.0M ARR |
+| **[TeleportHQ](https://teleporthq.io/)** | AI-assisted visual front-end development platform with automated multi-framework clean code export. | $19.99/mo (Pro tier, billed monthly) or ~$15/mo billed annually | Free forever plan: unlimited public projects, 3 custom web projects, `.teleporthq.app` subdomain, 1 GB storage | $2.5M–$3.67M Seed funding (One Capital, European Regional Dev Fund) |
+| **[CodeDesign.ai](https://codedesign.ai/)** | AI website and landing page generator with direct responsive HTML/React code export options. | $12/mo (Individual tier, billed annually) or $15/mo monthly | Free forever plan: 3 AI site generations, publishing on CodeDesign subdomain, no credit card required | Bootstrapped / Unfunded ($0 external venture funding reported); early-stage private |
 
 
 
