@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Workflow-Engine-Orchestration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Workflow-Engine-Orchestration?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Workflow-Engine-Orchestration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Workflow-Engine-Orchestration?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Workflow-Engine-Orchestration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Workflow-Engine-Orchestration?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Workflow-Engine-Orchestration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -69,9 +69,9 @@ Open-source alternatives empower developers, agencies, and privacy-conscious tea
 
 ### ⭐ Open-Source Summary Table
 
-All open-source repositories below are sorted in **descending order by GitHub star count**. Star badges link directly to each project's stargazers page:
+All open-source repositories below are sorted in **descending order by GitHub Stars_Count**. Stars_Badges link directly to each project's stargazers page:
 
-| 📦 Repository | 🌟 Star Badge (Social, White) | 🎯 Category / Focus | 📜 License |
+| 📦 Repository | 🌟 Stars_Badge (Social, White) | 🎯 Category / Focus | 📜 License |
 |---|---|---|---|
 | **[shadcn-ui/ui](https://github.com/shadcn-ui/ui)** | [![shadcn/ui stars](https://img.shields.io/github/stars/shadcn-ui/ui?style=social&color=white)](https://github.com/shadcn-ui/ui/stargazers) | Foundation UI Component System for AI Page Builders | MIT |
 | **[abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)** | [![screenshot-to-code stars](https://img.shields.io/github/stars/abi/screenshot-to-code?style=social&color=white)](https://github.com/abi/screenshot-to-code/stargazers) | Vision AI Screenshot-to-Code / Landing Page Generator | Apache-2.0 |
@@ -208,7 +208,7 @@ Contributions from the developer and AI community are warmly welcomed!
 2. **Create a branch**: `git checkout -b feature/add-new-builder`
 3. **Add your tool**:
    - Ensure open-source projects and SaaS platforms remain strictly separated.
-   - Maintain consistent formatting: include star badge linking to stargazers, license, and factual 1–2 sentence description.
+   - Maintain consistent formatting: include Stars_Badge linking to stargazers, license, and factual 1–2 sentence description.
    - Verify that your entry is actively maintained and documented.
 4. **Submit a Pull Request**: Provide a brief summary of the project and why it belongs in this curated index.
 
