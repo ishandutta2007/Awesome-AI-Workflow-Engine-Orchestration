@@ -209,3 +209,81 @@ Some “open-source” projects may have dual licensing, proprietary components,
 If this list helped you, please ⭐ the repo!
 # Awesome-AI-Workflow-Engine-Orchestration
 
+# Top AI Workflow Engine & Orchestration Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Agentic Workflows, Visual Orchestration & Self-Hosted Automation Engines*  
+**Last updated: March 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Workflow Engines & Orchestration**. These tools help teams connect applications, automate multi-step processes, and coordinate AI agents with deterministic logic, human approvals, and observability—covering everything from no-code SaaS builders to source-available engines that run on your own infrastructure.
+
+**Examples** include n8n, Zapier, Make, Workato, Flowise, Dify, Langflow, Pipedream, and Estella (the category leaders).
+
+**Open-source emphasis**: This section highlights every major active project for self-hosted AI workflow orchestration, open-source agent platforms, and community-driven automation—ideal for engineering teams seeking data sovereignty, avoiding per-task billing surprises, and maintaining full control over execution logic and credentials. The open-source landscape is genuinely functional: **n8n** provides a source-available engine with 1,500+ integrations and AI agent nodes [citation:1], **Flowise** offers a visual AI builder with air-gapped deployment options [citation:6], and **Dify** delivers a collaborative agentic workflow platform with 159k+ GitHub stars [citation:7].
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-products)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Zapier](https://zapier.com/)**  
+  The most accessible no-code automation platform with **8,000–9,000+ app integrations** [citation:3][citation:15]. Conventional Zaps bill per **successful action task** (trigger steps and built-in utilities don't count). **Agents** are billed separately. **SDK and MCP server** available for programmatic access to app actions without building OAuth flows [citation:3][citation:15].
+
+- **[Make (Integromat)](https://www.make.com/)**  
+  Visual scenario builder with routers, iterators, and aggregators. Billing is in **credits per module operation**—loops and iterators multiply consumption. **SaaS-only** with no standalone self-hosted engine [citation:12]. OAuth integration available for embedding Make automation into third-party platforms [citation:2].
+
+- **[Workato](https://www.workato.com/)**  
+  Enterprise iPaaS for connecting cloud and on-premise applications without code. Positioned for IT professionals and citizen integrators. **Membrane CLI** available for handling authentication and credential refresh when interacting with Workato [citation:4].
+
+- **[n8n Cloud](https://n8n.io/)**  
+  Managed version of the source-available n8n engine. Cloud pricing is primarily based on **complete workflow executions** rather than per-step actions. **1500+ integrations and 9,000+ workflow templates** available [citation:1].
+
+## Open-Source GitHub Projects
+
+- **[n8n](https://github.com/n8n-io/n8n)**  
+  **Fair-code platform for building AI agents and workflows** with a visual canvas and custom code [citation:1]. **1,500+ integrations and 9,000+ workflow templates**. **AI-Native Automation**: connect to OpenAI, Anthropic, Google, or open-source models without lock-in [citation:1]. **Self-hostable** via Docker or npm; **Enterprise Licenses** available for additional features. **License**: Sustainable Use License (source-available, not OSI-approved open source) [citation:1]. **Best for teams wanting a proven, widely-adopted automation engine** with AI agent capabilities and a large integration library.
+
+- **[Flowise](https://github.com/FlowiseAI/Flowise)**  
+  Open-source generative AI development platform with **three visual builders**: Assistant (RAG chat), Chatflow (single-agent), and Agentflow (multi-agent orchestration) [citation:6]. **Apache-2.0 licensed**, self-hostable or air-gapped. **Known issues**: defaults to SQLite (unsafe for concurrent writes—switch to PostgreSQL); enterprise features (RBAC, SSO, audit) are **paywalled on self-host** [citation:6]. **⚠️ End of life: August 31, 2026**—repository archived, official community presence ended [citation:12]. **Not recommended for new projects**—migrate to actively maintained alternatives.
+
+- **[Dify](https://github.com/langgenius/dify)**  
+  **Collaborative workspace for building agentic workflows and RAG pipelines** with rich AI model and tool support [citation:7]. **159,807 GitHub stars, 25,251 forks** (as of Oct 2026) [citation:7]. **Deploy on cloud, VPC, or self-hosted**. **License**: Modified Apache 2.0 with additional conditions. **Best for teams wanting an all-in-one platform** for LLM application development with agentic workflow orchestration.
+
+- **[Langflow](https://github.com/langflow-ai/langflow)**  
+  **Visual builder for AI agents and workflows** with source code access for custom Python components . **Multi-agent orchestration** with conversation management. **Deploy as API or MCP server** to turn flows into tools for MCP clients. **Observability** via LangSmith and LangFuse. **Langflow Desktop** bundles dependencies for Windows and macOS . **Critical**: upgrade to **≥1.7.1** for CVE-2025-68477 and CVE-2025-68478; avoid version 1.7.0 . **Best for developers wanting a visual AI workflow builder** with MCP export and desktop option.
+
+- **[Pipedream](https://github.com/PipedreamHQ/pipedream)**  
+  Developer-focused integration platform with **Python SDK** (`pip install pipedream`) for running actions and managing connections . **Async client**, pagination, OAuth client credentials or bearer token authentication . **Best for Python developers** wanting programmatic access to Pipedream's API infrastructure.
+
+### Additional Strong Open-Source Options
+
+- **[esengine/estella](https://github.com/esengine/estella)** is **not an AI workflow engine**—it is a 2D/3D game engine with WebAssembly/ECS, TypeScript SDK, and MCP server for AI agents . The "esengine/estella" reference in the prompt appears to be a category mismatch; no AI workflow orchestration capabilities were found.
+
+- **[orc (qorc)](https://github.com/PietroPasotti/orc)** is an **AI workflow engine for code generation**: reads vision documents, breaks them into tasks, spawns AI coder agents, reviews results, and merges passing work on a `dev` branch [citation:11]. **Git-native audit trail**, sandboxed agents, OpenAI-compatible LLM backends, optional Telegram integration for human-in-the-loop [citation:11]. **Best for teams wanting autonomous code generation** rather than general-purpose workflow automation.
+
+**Frameworks for building custom systems**: Combine **n8n** for deterministic automation and AI agent nodes with **Dify** or **Langflow** for visual agentic workflow building. Use **Pipedream's SDK** when embedding API connectivity into Python applications. **Avoid Flowise for new deployments**—it reached end of life in August 2026 [citation:12].
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- AI workflow engines execute arbitrary actions with connected credentials; enforce least-privilege scopes, human-in-the-loop review for destructive operations, and audit logging for all automated runs.
+- **Tool lifecycle status matters.** **Flowise reached end of life on August 31, 2026**—repository archived, official community presence ended [citation:12]. Do not start new projects on it. **n8n's Sustainable Use License is source-available but not OSI-approved open source**—commercial-use restrictions should be reviewed before deployment [citation:1]. **Flowise's enterprise features (RBAC, SSO, audit) are paywalled even on self-hosted deployments**—a common surprise for teams expecting fully open-source governance [citation:6]. **Zapier and Make remain SaaS-only** with no self-hosted engine option [citation:12]. Validate your deployment model, licensing terms, and long-term maintenance path before committing.
+
+---
+
+**Made for automation engineers, AI platform teams, and operations leaders building intelligent workflow infrastructure.**  
+Let's make AI workflow orchestration more open, auditable, and human-controlled.
